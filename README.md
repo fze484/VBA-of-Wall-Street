@@ -6,7 +6,7 @@ The purpose of this analysis is to figure out which green stock(s) to invest in 
 
 ## Results
 
-Comparing the stock returns in 2017 and 2018, we notice that most stocks double digit growth in 2017. This growth could be attributed to the fact that the companies may have just been created (start-ups), experiencing higher growth in the first years of creation and a slump right after, as they reach maturity. The only 2 stocks that experienced positive returns are stocks with ENPH and RUN tickers, with over 80% growth in 2018 (please refer to tab <a href="VBA_Challenge.xlsm">Yearly_Comparison</a> for the analysis). In terms of volumes, ENPH seems to have been the most traded stock out of all 12 companies. Thus, ENPH seems like the safest stock to invest in if we base our decision solely on trading volumes and returns.
+Comparing the stock returns in 2017 and 2018, we notice that most stocks double digit growth in 2017. This growth could be attributed to the fact that the companies may have just been created (start-ups), experiencing higher growth in the first years of creation and a slump right after, as they reach maturity. The only 2 stocks that experienced positive returns are stocks with ENPH and RUN tickers, with over 80% growth in 2018 (please refer to tab <a href="VBA_Challenge.xlsm">Yearly_Comparison</a> of excel file named VBA_Challenge.xlsm for the analysis). In terms of volumes, ENPH seems to have been the most traded stock out of all 12 companies. Thus, ENPH seems like the safest stock to invest in if we base our decision solely on trading volumes and returns.
 
 Execution time of the original script was 0.67 s while execution time for the refactored script is 0.17 s when running the analysis for both years. The refactored script took 0.5 seconds less to execute than the first script.
 
@@ -19,6 +19,9 @@ The run times of the refactored code can be found below:
 <img src="Refactored_2018.png" width="500">
 
 ### Original code: 
+
+```
+
 Sub AllStocksAnalysis()
   'Adding a timer to measurecode performance
     Dim startTime As Single
@@ -104,7 +107,11 @@ Sub AllStocksAnalysis()
 
 End Sub
 
+```
+
 ### Refactored code 
+```
+
 Sub AllStocksAnalysisRefactored()
     Dim startTime As Single
     Dim endTime  As Single
@@ -234,6 +241,8 @@ Sub AllStocksAnalysisRefactored()
     MsgBox "This code ran in " & (endTime - startTime) & " seconds for the year " & (yearValue)
 
 End Sub
+
+```
 
 
 ## Summary
