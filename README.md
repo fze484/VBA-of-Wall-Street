@@ -11,7 +11,7 @@ Comparing the stock returns in 2017 and 2018, we notice that most stocks double 
 Execution time of the original script was 0.67 s while execution time for the refactored script is 0.17 s when running the analysis for both years. The refactored script took 0.5 seconds less to execute than the first script.
 
 The original run times can be found below:
-<img src="Original_2017.png" width="500">
+![Screenshot](Original_2017.png)
 <img src="Original_2018.png" width="500">
 
 The run times of the refactored code can be found below:
