@@ -11,13 +11,19 @@ Comparing the stock returns in 2017 and 2018, we notice that most stocks double 
 Execution time of the original script was 0.67 s while execution time for the refactored script is 0.17 s when running the analysis for both years. The refactored script took 0.5 seconds less to execute than the first script.
 
 The original run times can be found below:
+
 <img width="418" alt="VBA_Challenge_Original_2017" src="https://user-images.githubusercontent.com/80678332/188510495-c8a13043-829f-4007-9516-7245c51ac641.png">
 
-<img src="Original_2018.png" width="500">
+<img width="418" alt="VBA_Challenge_Original_2018" src="https://user-images.githubusercontent.com/80678332/188511122-5ed7300b-e70d-488a-bb80-62907c33203f.png">
+
 
 The run times of the refactored code can be found below:
-<img src="Refactored_2017.png" width="500">
-<img src="Refactored_2018.png" width="500">
+
+
+<img width="418" alt="VBA_Challenge_Refactored_2017" src="https://user-images.githubusercontent.com/80678332/188511160-4d761939-21c0-47df-a7c9-323afb0c5eef.png">
+
+<img width="419" alt="VBA_Challenge_Refactored_2018" src="https://user-images.githubusercontent.com/80678332/188511161-ef9711b8-5035-4a56-9a0f-269c9e6d2e1a.png">
+
 
 ### Original code: 
 
